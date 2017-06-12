@@ -1,52 +1,20 @@
-# Samourai Wallet
-
-### Features:
-
-[Samourai Wallet features list](https://gist.github.com/SamouraiDev/f4ce0f423fc09fea307be81b3dfafe48)
+# Afterburner
 
 ### Build:
 
-Import as Android Studio project. Should build "as is". PGP signed tagged releases correspond to builds that were issued via Google Play.
+Import as Android Studio project. Should build "as is". Tagged releases correspond to builds that were issued via Google Play.
 
-### BIP44:
+### Child-Pays-For-Parent (CPFP):
 
-Samourai implementation based on [original BIP] (https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki), extends [bitcoinj](https://bitcoinj.github.io/).
+Afterburner will restore the BIP39 mnemonic for any BIP44 wallet and allow you to unblock unconfirmed transactions via CPFP.
 
-### BIP47:
-
-Samourai implementation based on [original BIP] (https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki) by Justus Ranvier. Extends BIP44 implementation (above).
-
-[Generic source code for BIP47.](https://github.com/SamouraiDev/BIP47_RPC)
-
-[BIP47 test vectors](https://gist.github.com/SamouraiDev/6aad669604c5930864bd)
-
-### BIP69:
-
-Samourai implementation based on [original BIP] (https://github.com/bitcoin/bips/blob/master/bip-0069.mediawiki) by Kristov Atlas.
-
-### BIP125:
-
-Samourai implementation based on [original BIP] (https://github.com/bitcoin/bips/blob/master/bip-0125.mediawiki) by David A. Harding and Peter Todd.
-
-### BIP126:
-
-Samourai implementation based on [original BIP] (https://github.com/bitcoin/bips/blob/master/bip-0126.mediawiki) by Kristov Atlas.
-
-### BIP173:
-
-Samourai implementation based on [original BIP] (https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki) by Pieter Wuille and Greg Maxwell.
-
-### Ricochet:
-
-Samourai implementation of multi-hop spend designed to outrun the baying pack of #KYCRunningDogs.
-
-### Tor:
-
-Samourai indicates whether or not connections are being routed via Tor Socks5 proxy (uses Orbot).
+* any unconfirmed tx for which there is at least 1 change output
+* the parent tx should be confirmed
+* the change output and/or the other utxo are large enough to cover the CPFP fee + our service charge.
 
 ### License:
 
-[Unlicense] (https://github.com/Samourai-Wallet/samourai-wallet-android/blob/master/LICENSE)
+[Unlicense] (https://github.com/Samourai-Wallet/Afterburner/blob/master/LICENSE)
 
 ### Contributing:
 
