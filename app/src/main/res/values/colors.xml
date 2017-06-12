@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+    <item name="darkgrey" type="color">#FF1a1c1f</item>
+
+    <color name="window">#FF272c33</color>
+    <color name="primary">#FF3d434c</color>
+    <color name="primary_dark">#FF2e343d</color>
+    <color name="primary_light">#FFCFD8DC</color>
+    <color name="text_primary">#FFCFD8DC</color>
+    <color name="text_secondary">#FFbab9b9</color>
+    <color name="accent">#FF03A9F4</color>
+    <color name="balance">#FF13181f</color>
+    <color name="pinBG">#FF212429</color>
+    <color name="pinGreen">#FF4a9c52</color>
+
+</resources>

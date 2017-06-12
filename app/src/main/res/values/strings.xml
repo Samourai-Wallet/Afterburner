@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="version_name">0.10</string>
+    <string name="app_name">Afterburner</string>
+    <string name="action_about">About Afterburner</string>
+    <string name="action_download">Download Samourai Wallet</string>
+    <string name="action_wipe">Wipe wallet</string>
+
+    <string name="alpha_create_wallet">Write these words down and keep them safe. Do not lose these words or forget your passphrase.</string>
+    <string name="alpha_create_confirm_backup">I\'ve written down my words</string>
+
+    <string name="creating_wallet">Creating wallet. Please wait...</string>
+    <string name="restoring_wallet">Restoring wallet. Please wait...</string>
+    <string name="decrypting_bip38">Decrypting BIP38 password. Please wait...</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="options_export">Export wallet backup</string>
+
+    <string name="timeline_today">Today</string>
+    <string name="timeline_older">Older</string>
+
+    <string name="tx_sent">Transaction sent</string>
+    <string name="tx_failed">Error sending transaction</string>
+    <string name="you_received">Received</string>
+    <string name="you_sent">Sent</string>
+
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+
+    <string name="ask_you_sure_exit">Are you sure you want to exit Afterburner?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="pin_5_8">Create a PIN code between 5 and 8 characters.</string>
+    <string name="pin_5_8_confirm">Confirm PIN code</string>
+    <string name="pin_error">Pin code error</string>
+    <string name="no_internet">No Internet connectivity. Please try again.</string>
+    <string name="bip38_pw">BIP38 password</string>
+    <string name="bip38_pw_error">BIP38 password error</string>
+    <string name="bip39_restore">Enter your mnemonic and, if necessary, your BIP39 passphrase. If you do not use a BIP39 passphrase, leave it blank.</string>
+    <string name="restore_wallet">Restore your BIP44 wallet.\nAfterburner will identify any unconfirmed transactions.</string>
+    <string name="bip39_passphrase">BIP39 passphrase</string>
+    <string name="mnemonic_hex">Mnemonic</string>
+    <string name="pin_enter">Enter PIN code</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="random_key_error">Random key error</string>
+    <string name="login_error">Login failed</string>
+    <string name="wallet_created_ok">Wallet created OK.</string>
+    <string name="wallet_created_ko">Error creating wallet.</string>
+    <string name="wallet_restored_ok">Wallet restored OK.</string>
+    <string name="wallet_restored_ko">Error restoring wallet.</string>
+
+    <string name="scan">Scan</string>
+
+    <string name="insufficient_funds">Insufficient funds</string>
+    <string name="tx_length_error">Afterburner does not handle transactions over 100KB in size. Please try splitting your transaction.</string>
+    <string name="invalid_amount">Invalid amount</string>
+
+    <string name="retry">Retry</string>
+    <string name="exit">Exit</string>
+
+    <string name="create_pin">Create PIN code</string>
+    <string name="confirm_pin">Confirm PIN code</string>
+
+    <!--
+    <string name="spend_type_2">Afterburner - No address reuse. BIP126, if possible.</string>
+    <string name="spend_type_3">Ricochet - 4 hop spend.</string>
+
+    <string name="spend_type_1_desc">Normal Send - No address reuse. One change address</string>
+    <string name="spend_type_2_desc">Afterburner Send - No address reuse. BIP126, if possible.</string>
+    <string name="spend_type_3_desc">Ricochet - 4 hop spend.</string>
+-->
+
+    <string name="account_Afterburner">Wallet</string>
+    <string name="account_shuffling">Shifted</string>
+
+    <string name="first_use_shuffle">This is your Shifted Account. The Bitcoin you receive through ShapeShift will be stored in this account which does not share the same address space as your primary wallet account.</string>
+
+    <string name="received_bitcoin">Received Bitcoin</string>
+    <string name="total">Total</string>
+    <string name="export_to_clipboard">Export to clipboard</string>
+    <string name="export_to_email">Export to email</string>
+    <string name="encryption_error">There was an error while encrypting your wallet backup. Please try again.</string>
+    <string name="import_scan">From scan</string>
+    <string name="import_mnemonic">Mnemonic/seed</string>
+
+    <string name="choose_email_client">Choose an Email client:</string>
+
+    <string name="cannot_launch_app">Afterburner cannot be run on this device</string>
+
+    <string name="rbf_incoming">The incoming transaction is replace-by-fee. View in block explorer?</string>
+
+    <string name="cannot_reach_api">Afterburner APIs cannot be reached. Please verify connection and try again or try later.</string>
+    <string name="api_error">Afterburner APIs are returning an error. Please try again or try later.</string>
+
+    <string name="cannot_recognize_privkey">Cannot recognize private key</string>
+    <string name="cannot_sweep_privkey">Error sweeping private key</string>
+    <string name="cannot_find_unspents">Unspents list is empty</string>
+    <string name="please_wait_sending">Sending transaction, please wait.</string>
+
+    <string name="pushtx_returns_null">Spend failed. Server returned null value.</string>
+
+    <string name="refresh_tx_pre">Retrieving transactions and balance.</string>
+    <string name="refresh_tx">Retrieved transactions and balance.</string>
+
+    <string name="options_unconfirmed_tx">This transaction is awaiting confirmation. Please select an option:</string>
+    <string name="options_block_explorer">View transaction</string>
+    <string name="options_bump_fee">Increase tx fee</string>
+
+    <string name="cpfp_cannot_retrieve_tx">Cannot retrieve transaction information. Please try again.</string>
+    <string name="fee_bump_not_necessary">Be advised that bumping the fee may not be necessary for this transaction.</string>
+    <string name="bump_fee">Would you like to increase the miner fee of this transaction for quicker confirmation?\n\nAdditional Miner Fee:</string>
+
+    <string name="current_fee_selection">Your fee selection is set to:</string>
+    <string name="current_hi_fee_value">Current high fee:</string>
+    <string name="current_mid_fee_value">Current normal fee:</string>
+    <string name="current_lo_fee_value">Current low fee:</string>
+    <string name="slash_sat">sat/b</string>
+
+    <string name="cpfp_spent">CPFP transaction sent.</string>
+    <string name="cannot_output_dust">Cannot make transaction with dust output.</string>
+    <string name="cannot_create_cpfp">Cannot create CPFP transaction.</string>
+
+    <string name="invalid_mnemonic">Invalid BIP39 mnemonic</string>
+    <string name="download_samourai">Afterburner did not identify any unconfirmed transactions.\n\nIf you want to continue to take advantage of fee bumping via child-pays-for-parent (CPFP) and replace-by-fee (RBF) you can download Samourai Wallet and do so natively. You will also be able to take advantage of Samourai\'s feature-rich offering. Download and install Samourai Wallet?</string>
+
+</resources>
