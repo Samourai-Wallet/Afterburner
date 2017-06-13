@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version_name">0.50a</string>
+    <string name="app_name">Samourai</string>
+    <string name="alpha_create_wallet">Este es un producto alfa y las cosas pueden salir mal. Anote las siguientes 12 palabras y guárdelas en un lugar seguro. Mientras tenga estas 12 palabras y la contraseña que acaba de crear, nunca perderá acceso a sus fondos.</string>
+    <string name="alpha_create_confirm_backup">He escrito mis palabras de recuperación</string>
+    <string name="ok">Vale</string>
+    <string name="cancel">Cancelar</string>
+    <string name="timeline_today">Hoy</string>
+    <string name="timeline_older">Mayor</string>
+    <string name="tx_sent">Enviado</string>
+    <string name="you_received">Recibió</string>
+    <string name="you_sent">Enviado</string>
+    <string name="ask_you_sure_exit">¿Está seguro que desea salir Samourai?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="pin_error">Error de código PIN</string>
+    <string name="no_internet">No hay conexión a Internet. Por favor intentelo nuevamente.</string>
+    <string name="restore_wallet">Restaurar la billetera</string>
+    <string name="bip39_passphrase">BIP39 contraseña</string>
+    <string name="mnemonic_hex">Semilla mnemónico o hexagonal</string>
+    <string name="please_wait">Espera...</string>
+    <string name="random_key_error">Error aleatorio clave</string>
+    <string name="login_error">Login failed</string>
+    <string name="wallet_created_ok">Billetera creada.</string>
+    <string name="wallet_created_ko">Billetera crea error.</string>
+    <string name="wallet_restored_ok">Cartera había restaurado OK.</string>
+    <string name="wallet_restored_ko">Cartera restaurar error.</string>
+    <string name="insufficient_funds">Fondos insuficientes</string>
+    <string name="tx_length_error">Samourai no maneja las transacciones de más de 100KB de tamaño. Por favor trate de dividir su transacción.</string>
+    <string name="invalid_amount">Cantidad no válido</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/TransactionsToday"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_whatshot_black_48dp"
+        android:tint="@color/accent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="30dp"
+        android:paddingTop="10dp"
+        android:text="@string/import_wallet_prompt"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:backgroundTint="@color/accent"
+        android:text="@string/import_wallet"
+        android:textColor="@android:color/white"
+        android:theme="@android:style/Widget.Material.Light.Button.Borderless.Colored" />
+
+</LinearLayout>
