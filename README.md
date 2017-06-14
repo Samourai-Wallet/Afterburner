@@ -8,9 +8,9 @@ Import as Android Studio project. Should build "as is". PGP signed tagged releas
 
 Afterburner will restore the BIP39 mnemonic for any BIP44 wallet and allow you to unblock unconfirmed transactions via CPFP.
 
-* any unconfirmed tx for which there is at least 1 change output
+* the unconfirmed tx must have at least 1 change output
 * the parent tx of the unconfirmed transaction should be confirmed
-* the change output and/or the other available utxo are large enough to cover the additional miners' fee + our service charge.
+* the change output and, if needed, the other available utxo must be large enough to cover the additional miners' fee + our service charge.
 
 ### License:
 
