@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resources>
 
-    <item name="darkgrey" type="color">#FF1a1c1f</item>
+    <item name="darkgrey" type="color">#1a1c1f</item>
 
     <color name="primary">#03a9f4</color>
     <color name="primary_dark">#01579b</color>
     <color name="accent">#ffa000</color>
     <color name="balance">#e5eff4</color>
 
-    <color name="primary_light">#FFCFD8DC</color>
-    <color name="pinBG">#FF212429</color>
+    <color name="primary_light">#cfd8dc</color>
+    <color name="pinBG">#FFFFFFFF</color>
     <color name="pinGreen">#FF4a9c52</color>
 
 </resources>

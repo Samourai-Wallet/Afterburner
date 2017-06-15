@@ -72,7 +72,7 @@
 
     <string name="cpfp_spent">Transaction boosted. Please wait for confirmation.</string>
     <string name="cannot_output_dust">Cannot make transaction with dust output.</string>
-    <string name="cannot_create_cpfp">Cannot boost this transaction. Please go to www.afterburn.it/cannotboost for more information</string>
+    <string name="cannot_create_cpfp">Cannot boost this transaction. Please go to www.afterburnerapp.com/cannotboost for more information</string>
 
     <string name="invalid_mnemonic">Invalid BIP39 mnemonic</string>
     <string name="no_unconfirmed_tx">There are no unconfirmed transactions in your wallet.</string>
