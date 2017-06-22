@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="version_name">1.01</string>
+    <string name="version_name">1.02</string>
     <string name="app_name">Afterburner</string>
     <string name="action_about">About Afterburner</string>
     <string name="action_download">Download Samourai Wallet</string>
