@@ -1107,7 +1107,8 @@ public class BalanceActivity extends Activity {
                             message += BalanceActivity.this.getString(R.string.fee_bump_not_necessary);
                             message += "\n\n";
                         }
-                        message += BalanceActivity.this.getString(R.string.bump_fee) + " " + Coin.valueOf(remainingFee).toPlainString() + " BTC";
+                        message += BalanceActivity.this.getString(R.string.bump_fee) + " " + Coin.valueOf(cpfpFee.longValue()).toPlainString() + " BTC";
+                        message += "\n\n" + BalanceActivity.this.getString(R.string.bump_fee2) + " " + Coin.valueOf(biAfterburnerFee.longValue()).toPlainString() + " BTC";
 
                         AlertDialog.Builder dlg = new AlertDialog.Builder(BalanceActivity.this)
                                 .setTitle(R.string.app_name)
